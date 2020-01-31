@@ -42,7 +42,7 @@
 						<h3 class="page-header"><i class="fa fa fa-bars"></i> <?php echo  (isset($title)) ? $title : "default";?></h3>
 						<ol class="breadcrumb">
 							<?php
-								//$brdc = array();
+								  //$brdc = array();
 								if(isset($breadcrumb)){
 									$brdc =  explode(",",$breadcrumb);
 								}
